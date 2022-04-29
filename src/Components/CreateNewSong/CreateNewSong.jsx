@@ -35,6 +35,7 @@ const CreateNewSong = (props) => {
     return (  
         <form onSubmit= {handleCreate}>
             <h2>Add Song</h2>
+            <hr/>
             <div className='form-grid'>
                 <div className='form-group'>
                     <label>Title</label>

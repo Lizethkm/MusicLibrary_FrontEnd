@@ -2,22 +2,19 @@ body{
     background-image: url(./Assests/UX-HTML-CSS/small-background.jpg);
     background-size:cover;
 }
-h3{
+
+.topTitle{
     align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
-
-
-.border-boxCreateNewSong{
-    padding-left: 32px;
-    
-}
 
 .border-box {
     border: 1px;
     border-style: solid;
     border-color: black;
-    background-color: #98A297;
+    background-color: #98a297d9;
     margin: 1em;
     margin-top: 10%;
     padding: 1em;

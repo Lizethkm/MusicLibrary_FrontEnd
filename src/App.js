@@ -60,9 +60,10 @@ function App() {
       <div className='container-fluid'> 
         <div className='border-box'>
           <div className='row'> 
-            <h3>Music Library</h3>
-              
+            <div className='topTitle'>
+              <h3>Music Library</h3>  
               < SearchBar foundSongs= {filterSongs}/>
+            </div>  
               <div className='row'>
                 <div className='col-sm-12'>
                   < DisplayMusic parentEntries= {newSongs}/>
@@ -72,9 +73,13 @@ function App() {
             </div>
         </div>
       </div>
-      <div className='border-boxCreateNewSong'>
-        <CreateNewSong createNewSong = {createNewSong} />
-      </div>
+      <div className='container-fluid'>
+        <div className='border-box'>
+          <div className='col-sm-12'>
+            <CreateNewSong createNewSong = {createNewSong} />
+          </div>
+        </div>
+      </div>  
     </div>
   );
 }

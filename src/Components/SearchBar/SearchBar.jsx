@@ -19,7 +19,7 @@ const SearchBar = (props) => {
     return ( 
         <form className='Filter'> 
             <h6>Filter</h6>
-            <div><input type='text' value= {searchSongs} onChange= {handleSearch} placeholder='mariposa traicionera' /></div>
+            <div><input type='text' value= {searchSongs} onChange= {handleSearch} placeholder='Ex:"mariposa traicionera"' /></div>
             <button type="submit">Submit</button> 
         </form>
      );

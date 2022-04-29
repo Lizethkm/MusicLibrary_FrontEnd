@@ -2,3 +2,20 @@ html{
     background-image: url(./Assests/UX-HTML-CSS/small-background.jpg) ;
     background-size:cover;
 }
+
+.border-boxSearchBar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.border-boxCreateNewSong{
+    float: right;
+}
+
+.border-box {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    margin: 1em;
+    padding: 1em;
+}

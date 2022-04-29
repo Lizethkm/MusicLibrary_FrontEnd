@@ -56,10 +56,29 @@ function App() {
 
 
   return (
-    <div  className='background'  >    
-      < SearchBar foundSongs= {filterSongs}/>
-      <CreateNewSong createNewSong = {createNewSong} />
-      < DisplayMusic parentEntries= {newSongs}/>
+    <div className='container-fluid'>
+      <div  className='background'  ></div>   
+      <div className='row'> 
+        
+        <div className='border-boxSearchBar'>
+          < SearchBar foundSongs= {filterSongs}/>
+        </div> 
+      
+
+        <div className='col-sm-12'>
+          <div className='border-box'>
+            < DisplayMusic parentEntries= {newSongs}/>
+          </div>
+        </div> 
+
+        <div className='col-sm-3'>
+          <div className='border-boxCreateNewSong'>
+            <CreateNewSong createNewSong = {createNewSong} />
+          </div>
+        </div>  
+      
+      </div>
+    
     </div>
   );
 }

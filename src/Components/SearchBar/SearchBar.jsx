@@ -17,7 +17,7 @@ const SearchBar = (props) => {
 
     return ( 
         <form>
-            <h2>Search Bar</h2>
+            <h6>Search Bar</h6>
             <div><input type='text' value= {searchSongs} onChange= {handleSearch} placeholder='Search Songs' /></div>
             <button type="submit">Submit</button> 
         </form>

@@ -3,6 +3,8 @@ import axios from 'axios';
 import DisplayMusic from './Components/DisplayMusic/DisplayMusic';
 import SearchBar from './Components/SearchBar/SearchBar';
 import CreateNewSong from './Components/CreateNewSong/CreateNewSong';
+import background from './Assests/UX-HTML-CSS/small-background.jpg'
+import './App.css'
 
 
 
@@ -54,8 +56,7 @@ function App() {
 
 
   return (
-    <div>
-    
+    <div  className='background'  >    
       < SearchBar foundSongs= {filterSongs}/>
       <CreateNewSong createNewSong = {createNewSong} />
       < DisplayMusic parentEntries= {newSongs}/>

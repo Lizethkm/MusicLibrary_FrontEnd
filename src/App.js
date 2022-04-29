@@ -58,16 +58,17 @@ function App() {
   return (
     <div>
       <div className='container-fluid'> 
-        <div className='row'> 
-            <div className='border-box'>
-              <div >
-                < SearchBar foundSongs= {filterSongs}/>
-                <div className='row'>
-                  <div className='col-sm-12'>
-                    < DisplayMusic parentEntries= {newSongs}/>
-                  </div>
+        <div className='border-box'>
+          <div className='row'> 
+            <h3>Music Library</h3>
+              
+              < SearchBar foundSongs= {filterSongs}/>
+              <div className='row'>
+                <div className='col-sm-12'>
+                  < DisplayMusic parentEntries= {newSongs}/>
                 </div>
               </div>
+              
             </div>
         </div>
       </div>

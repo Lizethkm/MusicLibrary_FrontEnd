@@ -71,11 +71,11 @@ function App() {
           </div>
         </div> 
 
-        <div className='col-sm-3'>
-          <div className='border-boxCreateNewSong'>
-            <CreateNewSong createNewSong = {createNewSong} />
-          </div>
-        </div>  
+      
+        <div className='border-boxCreateNewSong'>
+          <CreateNewSong createNewSong = {createNewSong} />
+        </div>
+      
       
       </div>
     
